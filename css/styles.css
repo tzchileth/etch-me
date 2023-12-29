@@ -1,4 +1,9 @@
 body {
+    display: flex;
+
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center; */
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -6,6 +11,40 @@ body {
 
 #container {
     display: flex;
+    align-self: center;
+    /* align-items: center; */
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+button {
+    background: #3882F6;
+    color: white;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 18px;
+    margin: 0;
+}
+
+#clear {
+    margin-top: 20px;
+}
+
+#grid-generator {
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
 }

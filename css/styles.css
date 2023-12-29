@@ -1,9 +1,6 @@
 body {
     display: flex;
-
     flex-direction: column;
-    /*justify-content: center;
-    align-items: center; */
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -12,13 +9,11 @@ body {
 #container {
     display: flex;
     align-self: center;
-    /* align-items: center; */
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 0;
     padding: 0;
 }
-
 
 button {
     background: #3882F6;

@@ -45,7 +45,7 @@ function colorMe() {
             let r = Math.floor(Math.random() * 256); // red
             let g = Math.floor(Math.random() * 256); // green
             let b = Math.floor(Math.random() * 256); // blue
-            let a = Math.random().toFixed(1);
+            let a = Math.random().toFixed(1);        // alpha
             box.style.backgroundColor = `rgba(${r}, ${g}, ${b}, ${a})`;
         });
     });
